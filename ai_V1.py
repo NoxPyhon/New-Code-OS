@@ -1,5 +1,4 @@
-def lib(ai):
-    if ai == "SPG-AI":
+def lib():
         user_input = input("digite as quantias usando , pra dividir cada uma: ")
         user_limit = input("digite os limites das quantias usando , pra dividir cada uma: ")
         user_input = [user_input]
@@ -10,3 +9,6 @@ def lib(ai):
             print("Valor OK (Igual)")
         elif user_input > user_limit:
             print("Valor Bom (Maior que o limite)")
+
+
+lib()
